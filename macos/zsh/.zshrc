@@ -27,3 +27,6 @@ alias stop_mongodb="brew services stop mongodb/brew/mongodb-community"
 # To replace vim by nvim
 alias vi="nvim"
 
+# To activate auto-complete
+autoload -Uz compinit
+compinit
