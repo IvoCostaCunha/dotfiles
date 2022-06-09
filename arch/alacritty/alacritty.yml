@@ -14,14 +14,14 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-#env:
+env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
+  TERM: alacritty
 
 window:
   # Window dimensions (changes require restart)
@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):u
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: full
+  decorations: none
 
   # Background opacity
   #
@@ -725,12 +725,7 @@ alt_send_esc: false
 key_bindings:
   - { key: Comma,     mods: Control,      command:
       {program: "sh", args: ["-c","open ~/.config/alacritty/alacritty.yml"]}     }
-  - { key: Space,     mods: Alt,          chars: " "                     }
-  - { key: Back, mods: Super, chars: "\x15" } # delete word/line
-  - { key: Left,     mods: Alt,     chars: "\x1bb"                       } # one word left
-  - { key: Right,    mods: Alt,     chars: "\x1bf"                       } # one word right
-  - { key: Left,     mods: Control, chars: "\x1bOH",   mode: AppCursor   } # Home
-  - { key: Right,    mods: Control, chars: "\x1bOF",   mode: AppCursor   } # End
+  - { key: Back, mods: Control, chars: "\x15" } # delete word/line
   - { key: N,        mods: Control, action: CreateNewWindow   }
 
   #- { key: Paste,                                       action: Paste          }
