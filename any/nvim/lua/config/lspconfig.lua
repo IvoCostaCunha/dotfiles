@@ -10,7 +10,7 @@ require("nvim-lsp-installer").setup {
         }
     },
 }
-vim.o.updatetime = 50
+vim.o.updatetime = 250
 
 local signs = { Error = ' ', Warn = ' ', Hint = ' ', Info = ' ' }
 for type, icon in pairs(signs) do
