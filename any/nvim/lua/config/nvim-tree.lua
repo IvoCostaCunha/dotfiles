@@ -59,7 +59,7 @@ require'nvim-tree'.setup {
         git = true,
       },
       glyphs = {
-        default = "",
+        default = "",
         symlink = "",
         folder = {
           arrow_closed = "",
@@ -102,9 +102,9 @@ require'nvim-tree'.setup {
     enable = false,
     show_on_dirs = false,
     icons = {
-      hint = "",
+      hint = "",
       info = "",
-      warning = "",
+      warning = " ",
       error = "",
     },
   },

@@ -3,6 +3,7 @@ require('plugins')
 
 require('mappings')
 require('options')
--- I use lualine
+
+-- If not using lualine plugin
 -- require('statusline')
 

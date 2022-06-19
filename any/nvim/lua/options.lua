@@ -1,5 +1,3 @@
-vim.cmd('colorscheme tokyonight')
-
 vim.cmd([[
   set number
   set wrap
@@ -15,5 +13,5 @@ vim.cmd([[
   set hlsearch
   set smartindent
   set title
-  set splitright
+  set splitright 
 ]])

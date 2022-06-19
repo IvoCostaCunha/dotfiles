@@ -1,15 +1,14 @@
 ## These are my conf files
 
 ### Requirements
-### MacOS files
-#### Fonts
+#### Any
 - SF Mono Powerline
+### MacOS files
 #### Others
 - NvimPacker installation
 
 ### Arch files
 #### Fonts
-- SF Mono Powerline
 - Roboto
 #### Others
 - NvimPacker installation
