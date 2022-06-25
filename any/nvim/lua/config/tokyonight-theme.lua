@@ -5,4 +5,4 @@ vim.g.tokyonight_colors = { warning = "orange", hint = "blue", error = "red", in
 vim.g.tokyonight_transparent = false
 vim.g.tokyonight_dark_float = true
 
-vim.cmd[[colorscheme tokyonight]]
+vim.cmd('colorscheme tokyonight')

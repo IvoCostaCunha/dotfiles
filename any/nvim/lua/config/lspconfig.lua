@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 -- Based on https://github.com/neovim/nvim-lspconfig/wiki/UI-Customization
 require("nvim-lsp-installer").setup {
     ensure_installed = {'html', 'jdtls', 'pyrigh', 'sumneko_lua'},
@@ -21,8 +22,11 @@ end
 local on_attach = function(client, bufnr)
   -- LSP general errors configuration
   vim.diagnostic.config({
+    underline = true,
+    signs = true,
     virtual_text = false,
     update_in_insert = true,
+    -- float { source = "always" },
     severity_sort = true
   })
   -- Floating LSP errors tootip configuration
@@ -58,6 +62,7 @@ local on_attach = function(client, bufnr)
   end, bufopts)
   vim.keymap.set('n', '<space>D', vim.lsp.buf.type_definition, bufopts)
   vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+---@diagnostic disable-next-line: undefined-global
   vim.keymap.set('n', '<space>ca', vim.lsp.buf.code_action, bufopts)
   vim.keymap.set('n', 'gr', vim.lsp.buf.references, bufopts)
   vim.keymap.set('n', '<space>f', vim.lsp.buf.formatting, bufopts)

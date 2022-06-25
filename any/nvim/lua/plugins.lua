@@ -46,6 +46,11 @@ use {
 ]]--
 
 use {
+  'norcalli/nvim-colorizer.lua',
+  config = getConfig('nvim-colorizer')
+}
+
+use {
   'mfussenegger/nvim-dap',
   config = getConfig('dap')
 }

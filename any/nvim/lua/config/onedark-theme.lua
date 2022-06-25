@@ -33,3 +33,4 @@ require('onedark').setup  {
 }
 
 require('onedark').load()
+vim.cmd('colorscheme onedark')

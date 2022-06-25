@@ -7,3 +7,5 @@ require('options')
 -- If not using lualine plugin
 -- require('statusline')
 
+-- for custom highlights
+require('highlights')

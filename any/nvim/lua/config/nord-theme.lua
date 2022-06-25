@@ -6,4 +6,5 @@ vim.g.nord_disable_background = false
 vim.g.nord_italic = false
 
 require('nord').set()
-vim.cmd[[colorscheme nord]]
+
+vim.cmd('colorscheme nord')

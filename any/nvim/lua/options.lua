@@ -13,5 +13,7 @@ vim.cmd([[
   set hlsearch
   set smartindent
   set title
-  set splitright 
+  set splitright
+  set signcolumn=number
+  set termguicolors
 ]])
