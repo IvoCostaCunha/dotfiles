@@ -22,18 +22,8 @@ alias ls="ls -la"
 # Ruby
 # export PATH="/usr/local/opt/ruby/bin:$PATH"
 
-export PATH="/usr/local/sbin:$PATH"
-
-# Alias
-alias subl="/Applications/Sublime\ text.app/Contents/SharedSupport/bin/subl"
-alias ls="ls -la"
-alias start_mysql="brew services start mysql"
-alias stop_mysql="brew services stop mysql"
-alias start_mongodb="brew services start mongodb/brew/mongodb-community"
-alias stop_mongodb="brew services stop mongodb/brew/mongodb-community"
-
 # To replace vim by nvim
-alias vi="nvim"
+# alias vi="nvim"
 
 # To activate auto-complete
 autoload -Uz compinit
