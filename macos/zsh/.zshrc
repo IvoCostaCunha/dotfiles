@@ -11,7 +11,7 @@ alias ls="ls -la"
 # alias stop_mongodb="brew services stop mongodb/brew/mongodb-community"
 
 # VS Code
-# export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Composer
 # export PATH="/Users/ivo/.composer/vendor/bin:$PATH"
@@ -28,3 +28,8 @@ alias ls="ls -la"
 # To activate auto-complete
 autoload -Uz compinit
 compinit
+
+# nvm (node version  manager)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
