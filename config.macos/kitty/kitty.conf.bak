@@ -1,0 +1,17 @@
+include layout.conf
+include theme.conf
+include fonts.conf
+include keybinds.conf
+
+shell /bin/zsh -l
+editor .
+confirm_os_window_close 0
+scrollback_lines 2500
+# Permits to use Opt key as Alt key in vim/neovim key bindings
+# macos_option_as_alt yes
+
+
+# BEGIN_KITTY_THEME
+# Base2Tone Porch Dark
+include current-theme.conf
+# END_KITTY_THEME
