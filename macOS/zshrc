@@ -1,0 +1,23 @@
+# compinit enable auto-complete
+autoload -Uz compinit
+compinit
+
+export CLICOLOR=1
+NEW_LINE=$'\n'
+
+PS1="%F{82}(%*) %n@%m%f %F{214}%2~%f%b%F{82} %#${NEW_LINE}  > %F{reset}"
+
+# GPG_TTY config
+export GPG_TTY=$(tty)
+
+# Clang C/C++ Flags
+PATH="/usr/local/opt/llvm/bin:$PATH"
+LDFLAGS="-L/usr/local/opt/llvm/lib"
+CPPFLAGS="-I/usr/local/opt/llvm/include"
+
+# pipx
+export PATH="$PATH:/Users/ivo/.local/bin"
+
+# Angular
+# Load Angular CLI autocompletion.
+source <(ng completion script)

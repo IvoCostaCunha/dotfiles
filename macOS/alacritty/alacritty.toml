@@ -1,0 +1,98 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Super"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOH"
+key = "Left"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BOF"
+key = "Right"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Command"
+
+[terminal]
+
+[colors.bright]
+black = "#666666"
+blue = "#3f70f2"
+cyan = "#5ffdff"
+green = "#25e20f"
+magenta = "#e048de"
+red = "#d54e53"
+white = "#feffff"
+yellow = "#e7c547"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#ffaf00"
+cyan = "#00c5c7"
+green = "#25c711"
+magenta = "#bf3fbd"
+red = "#e76D70"
+white = "#c5c8c6"
+yellow = "#f0c674"
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#f7f6ef"
+
+[font]
+size = 13
+
+[font.bold]
+family = "Hack"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l"]
+
+[window]
+decorations = "full"
+dynamic_padding = true
+dynamic_title = true
+opacity = 1
+title = "Alacritty"
+
+[window.dimensions]
+columns = 80
+lines = 52
+
+[window.padding]
+x = 0
+y = 1

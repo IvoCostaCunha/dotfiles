@@ -1,0 +1,23 @@
+{
+	// To be placed in Packages/User/Preferences !
+
+	"color_scheme": "GitHub Dark Legacy.sublime-color-scheme",
+	
+  // Gravity theme settings
+	"theme": "Gravity One.sublime-theme",
+	"gravity_title_bar": true,
+	"gravity_tab_height_short": true,
+	"gravity_select_header": true,
+	
+  // Colors blue/purple/pink/red/orange/yellow/green/bold
+	"gravity_highlight_color_purple": true,
+	"gravity_selected_tab_bold": true,
+
+	// font settings
+	"font_face": "Hack",
+	"font_size": 13,
+	"enable_tab_scrolling": false,
+
+  // Misc
+	"show_full_path": "true",
+}
