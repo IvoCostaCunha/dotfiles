@@ -8,16 +8,16 @@ Configurations specific to each OS are in their respective folders. The others a
 These dependencies aren't used by all the configurations, they are specific to each one.  
 Not all break configurations due to fallbacks, but to achieve the expected result it is better to have them installed beforehand.
 
-### Neovim
-#### Plugin external dependencies
+## Neovim
+### Plugin external dependencies
 Run `:checkhealth` to know if critical plugin external dependencies are missing.
 - [vimtex](https://github.com/lervag/vimtex) requires [zathura](https://pwmt.org/projects/zathura) PDF reader to be able to display a live version of the edited LaTeX document.
-#### LSPs
+### LSPs
 The plugin [mason](https://github.com/williamboman/mason.nvim) manages LSP servers.
 
-### ArchLinux
+## ArchLinux
 This Linux configuration uses [i3](https://i3wm.org) as window manager and i3 has several dependencies.
-#### i3 dependencies
+### i3 dependencies
 - [Alacritty](https://alacritty.org/) - Set by i3 as terminal.
 - [feh](https://feh.finalrewind.org/) - Used by i3 to setup a background image. (feh uses ~/images/aurore-boreale.jpg as background for now.)
 - [rofi](https://github.com/davatorium/rofi) - Used by i3 as an application/file finder.
