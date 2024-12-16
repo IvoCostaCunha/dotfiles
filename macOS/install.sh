@@ -1,4 +1,5 @@
-#! bin/zsh
+#! /bin/bash
+# To be tested, not to be used yet !
 
 # check if the script is run as sudo
 # 0 is either root or sudo
