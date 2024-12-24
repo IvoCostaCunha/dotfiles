@@ -1,19 +1,14 @@
 # dotfiles
-This repository contains configurations for various programs for macOS and Arch Linux.  
+This repository contains configurations for various programs for macOS and Arch Linux.
 Configurations specific to each OS are in their respective folders. The others are common configurations.
 
 *Each OS should have an installation script to automate the installation of configuration files, dependencies and more, however it is not yet ready.*
 
-## Dependencies
-These dependencies aren't used by all the configurations, they are specific to each one.  
-Not all break configurations due to fallbacks, but to achieve the expected result it is better to have them installed beforehand.
+The Neovim configuration can be found at [nvim](https://github.com/IvoCostaCunha/nvim) for now.
 
-## Neovim
-### Plugin external dependencies
-Run `:checkhealth` to know if critical plugin external dependencies are missing.
-- [vimtex](https://github.com/lervag/vimtex) requires [zathura](https://pwmt.org/projects/zathura) PDF reader to be able to display a live version of the edited LaTeX document.
-### LSPs
-The plugin [mason](https://github.com/williamboman/mason.nvim) manages LSP servers.
+## Dependencies
+These dependencies aren't used by all the configurations, they are specific to each one.
+Not all break configurations due to fallbacks, but to achieve the expected result it is better to have them installed beforehand.
 
 ## ArchLinux
 This Linux configuration uses [i3](https://i3wm.org) as window manager and i3 has several dependencies.
