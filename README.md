@@ -4,7 +4,7 @@ Configurations specific to each OS are in their respective folders. The others a
 
 *Each OS should have an installation script to automate the installation of configuration files, dependencies and more, however it is not yet ready.*
 
-The Neovim configuration can be found at [nvim](https://github.com/IvoCostaCunha/nvim) for now.
+The Neovim configuration can be found at [nvim (GitHub)](https://github.com/IvoCostaCunha/nvim) or [nvim (GitLab)[https://gitlab.com/ivo-costacunha/nvim]] for now.
 
 ## Dependencies
 These dependencies aren't used by all the configurations, they are specific to each one.
