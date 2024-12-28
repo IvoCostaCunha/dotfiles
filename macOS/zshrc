@@ -23,6 +23,9 @@ export CPPFLAGS="-I/usr/local/opt/llvm/include"
 # pipx
 export PATH="$PATH:/Users/ivo/.local/bin"
 
+# skim
+export PATH="$PATH:/Applications/Skim.app/Contents/MacOS/"
+
 # Angular
 # Load Angular CLI autocompletion.
 source <(ng completion script)
