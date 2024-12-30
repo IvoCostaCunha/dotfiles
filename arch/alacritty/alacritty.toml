@@ -1,0 +1,67 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#666666"
+blue = "#3f70f2"
+cyan = "#5ffdff"
+green = "#25e20f"
+magenta = "#e048de"
+red = "#d54e53"
+white = "#feffff"
+yellow = "#e7c547"
+
+[colors.normal]
+black = "#1d1f21"
+blue = "#ffaf00"
+cyan = "#00c5c7"
+green = "#25c711"
+magenta = "#bf3fbd"
+red = "#e76D70"
+white = "#c5c8c6"
+yellow = "#f0c674"
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#f7f6ef"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 10
+
+[font.bold]
+family = "Hack"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
+
+[font.normal]
+family = "Hack"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Control"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+dynamic_title = false
+opacity = 0.9
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 3
+y = 1
